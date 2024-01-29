@@ -1,0 +1,46 @@
+#ser {
+    margin: 0 auto;
+    min-height: calc(100vh - 4rem);
+    width: 100vw;
+    max-width: 50rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align:center;
+    padding:0 1rem;
+}
+
+
+.servicesTitle{
+    margin: 1rem 0;
+    font-size: 3rem;
+    font-weight: 600;
+    padding-top: 3rem;
+    margin-bottom: 1.5rem;
+}
+
+.servicesDesc {
+    font-weight: 300;
+    font-size: 2rem;
+}
+.serBar{
+    display: flex;
+    margin: 1rem;
+    padding: 1.5rem 2rem;
+    border-radius: 0.5rem;
+    background: lightblue;
+}
+
+.serBarImg{
+    object-fit: cover;
+    height: 12rem;
+    width: 18rem;
+    margin-right: 2rem;
+}
+
+.serBarText>p{
+    font-size:1.5rem;
+    font-weight: 700;
+}
+ 

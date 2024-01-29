@@ -1,0 +1,48 @@
+#education {
+    overflow: hidden;
+    width: 100vw;
+    max-width: 65rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align:center;
+    margin: 0 auto;
+}
+
+.eduTitle{
+    margin: 1rem 0;
+    font-size: 3rem;
+    font-weight: 600;
+    padding-top: 3rem;
+    margin-bottom: 1.5rem;
+}
+
+
+
+.eduBars{
+    margin: 1.5rem;
+    width: 100vw;
+    max-width: 80%;
+    text-align: left;
+}
+
+.eduBar{
+    display: flex;
+    margin: 1rem;
+    padding: 1.5rem 2rem;
+    border-radius: 0.5rem;
+    background: goldenrod;
+}
+
+.eduBarImg{
+    object-fit: cover;
+    height: 12rem;
+    width: 18rem;
+    margin-right: 2rem;
+}
+
+.eduBarText>p{
+    font-size:1.5rem;
+    font-weight: 700;
+}
